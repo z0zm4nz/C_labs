@@ -1,0 +1,11 @@
+CC = gcc
+CFLAGS = -stdio.h -stdlib.h  -pthread.h -time.h
+LDFLAGS = -lm
+TARGET = lab1_Zoz
+SRCS = lab1_Zoz
+
+$(TARGET): $(SRCS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRCS) $(LDFLAGS)
+
+clean:
+	rm -f $(TARGET)

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1696886368 source:d:\lab1_zoz\main.c
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+	<time.h>
+
